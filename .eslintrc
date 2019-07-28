@@ -1,0 +1,48 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 9,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "comma-dangle": ["error", "never"],
+        "object-curly-newline": [
+            "error",
+            {
+                "multiline": true,
+                "consistent": true
+            }
+        ],
+        "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+        ],
+        "array-bracket-spacing": [ "error", "always" ],
+        "template-curly-spacing": [ "error", "always" ],
+        "no-use-before-define": [
+            "error",
+            {
+                "functions": false,
+                "classes": false
+            }
+        ]
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "mocha": true
+    },
+    "globals": {
+        "document": false,
+        "sinon": true,
+        "expect": true
+    }
+}
