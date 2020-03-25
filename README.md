@@ -14,6 +14,8 @@ Simple utility to make reducers undoable.
 
 `undoable-reducer` provides simple utility to make any reducer undoable.
 
+Here is a small [demo](https://codesandbox.io/s/undoable-reducer-playground-xgqtn).
+
 # Installation
 
 As any other npm package `undoable-reducer` can be added to your project by following command:
